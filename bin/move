@@ -8,4 +8,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 users_input = gets.strip
 input_to_index(users_input)
-move(board, index_to.i, user_marker)
+move(board, users_input.to_i - 1, user_marker)
